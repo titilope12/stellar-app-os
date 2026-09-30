@@ -41,9 +41,6 @@
     "prepare": "husky",
     "monitor:fraud": "tsx lib/monitor/fraud-worker.ts",
     "test:load": "k6 run infra/load-tests/sponsor-load-test.js"
-    "monitor:fraud": "tsx lib/monitor/fraud-worker.ts",
-    "test:load": "k6 run infra/load-tests/sponsor-load-test.js",
-    "prepare": "husky"
   },
   "dependencies": {
     "@apollo/server": "^5.0.0",
